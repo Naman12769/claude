@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Terms & Conditions - Spendly{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Terms & Conditions</h1>
+    <p>Welcome to Spendly. By using our service, you agree to the following terms:</p>
+    <ul>
+        <li><strong>Usage:</strong> You agree to use Spendly for personal expense tracking.</li>
+        <li><strong>Account:</strong> You are responsible for maintaining the confidentiality of your account.</li>
+        <li><strong>Service:</strong> We strive to keep the service available but do not guarantee 100% uptime.</li>
+    </ul>
+    <a href="{{ url_for('landing') }}" class="nav-cta">Back to Home</a>
+</div>
+{% endblock %}
